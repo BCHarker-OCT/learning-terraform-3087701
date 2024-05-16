@@ -15,7 +15,6 @@ data "aws_ami" "app_ami" {
 }
 
 resource "aws_vpc" "learn-vpc" {
-  default = false 
   id = "vpc-0d5c2eb825eb54628"
 }
 
